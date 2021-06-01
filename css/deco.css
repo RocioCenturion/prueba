@@ -1,0 +1,107 @@
+*{
+   justify-content:center;
+  align-items: center;
+  align-content: center;
+  box-sizing: border-box;/*todol los anchos y algos incluyen el pading y margin*/
+  font-family: 'Courgette', cursive;/*para modificar la fuente con google font*/
+}
+body{
+  margin: 0;
+  padding: 0;
+  background:#beb1af;
+}
+header{
+  background-color:#CACFD2;
+  width: 200%;/*ancho del 100% de mi body*/
+  height: 30vh; /* tamaño de alto de mi header , con vh lo fijamo en tamaño segun la pantalla*/
+  }
+  .encabezado{
+    background: #beb1af;
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+  }
+  .encabezado li{
+  position:relative; 
+  left:50%; 
+  top: -100px;
+
+  }
+  .encabezado img{
+   display: flex;
+  width: 80%;
+  height: 80%;
+
+  
+  }
+  .logo{
+  display:block;
+  width: 35%;
+  height: 100%;
+  }
+  /*como quiero que se vea la imagen de mi logo */
+  .logo img{
+  position:relative; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+  right:70%; /* Establecemos la barra en la izquierda o derecha */
+  top: 0px; /* Bajamos la barra cantidad de px de arriba a abajo */
+  width:30%;
+  height: 100%;
+  object-fit:contain;
+  border-left-style: solid;
+  border-right-style: solid;
+  }
+
+nav{
+    width: 80%;
+    background-color: gray;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+   
+
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    border-top:10px solid black;
+}
+
+
+.Banner{
+    background-color: lightgray;
+    height: 85vh;
+    width: 100%;
+}
+.galeria{
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top:10px solid black;
+    justify-content: center;
+}
+.foto{
+    background-color: gray;
+    width: 20%;
+    height: 80px;
+    margin: 1% 1%;
+}
+footer{
+    background-color: #beb1af;
+    height: 150px;
+    border-top:10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+
+
+  

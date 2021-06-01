@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>prueba</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!--linkeamos css, 2 link de abajo para cambiar fuentes-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/0f408f8349.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+  <header>
+    <div class="encabezado">
+      <div class="logo">
+        <img src="imagenes/logogris.png" alt="Logo">
+      </div>
+      <div class="myMenu">
+       <input type="checkbox" id="menu-bar"></input>
+      <label class="fas fa-bars" for="menu-bar"></label>
+        <ul class="menu">
+          <li><a href="#inicio" class="enlace fas fa-seleccion">INICIO</a></li>
+          <li><a href="#datos" class="enlace fas fa-question-circle"> ¿QUIENES SOMOS? </a></li>
+          <li><a href="#address" class="enlace fas fa-address-book"> CONTACTO</a></li>
+            <li><a href="deco.html"class="enlace fas fa-seleccion">DECO </a></li>
+        </ul>
+     </div>
+   </div>
+ </header>
+
+      <main>
+        <section id="mycarousel">
+      <div class="row">
+       <div class="col s12"><!--col indica q es una columna y s12 tamañopequeño en adelante de 12 columnas-->
+                    <!--  <h1 class="center-aling titulo">¿que se te antoja hoy?</h1>;<!center-aling nos permite centrar el texto-->
+          <div class="carousel center-align">
+             <div class="carousel-item">
+                 <h2 class= "sabor">PORTON</h2>
+                  <div class="linea-division"></div>
+                   <img src="imagenes/porton.png" alt="Portones">
+             </div>
+             <div class="carousel-item">
+                <h2 class="sabor">ESTANTERIAS</h2>
+                 <div class="linea-division"></div>
+                  <img src="imagenes/estanterias.png" alt="Estanterias">
+            </div>
+            <div class="carousel-item">
+                <h2 class="sabor">MESA</h2>
+                 <div class="linea-division"></div>
+                  <img src="imagenes/mesa.png" alt="Mesa">
+             </div>
+          </div>
+          </div>
+          </div>
+        </div>
+        </section>
+
+            <div class="presentacion" id="datos">
+               <h4><img src="imagenes/icon-porton.png" alt="">Quienes Somos</h4>
+               
+                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h4><img src="imagenes/icon-porton.png" alt="icon">Contacto</h4>
+                <p>Podes encontrarnos en AV.monserrat al 512 o bien contactarte por via whatsapp /facebook /mail</p>
+              </div>
+               </div>
+
+  <section class="galeria">
+    <h5>Te invitamos a ver algunos de nuestros trabajos</h5>
+<div class="foto">
+    <img src="imagenes/porton1.png" alt="porton">
+</div>
+<div class="foto">
+  <img src="imagenes/porton.png" alt="portones">
+</div>
+<div class="foto">
+  <img src="imagenes/mesa.png" alt="mesa">
+</div>
+<div class="foto">
+    <img src="imagenes/estanterias.png" alt="estanterias">
+  
+    </div>
+        </section>
+                <!--<div class="address" id="address">
+               <h3><img src="imagenes/muffin.png" alt="*">Informacion de Contacto</h3>
+               <p> Domicilio:La pampa 3781-Villa Nueva</p>
+               <p> Envianos un whatsapp apretando<img src="imagenes/wsp.png" alt="whatsapp"</p>
+               <p>Agendanos y podras ver nuestro catalogo!!</p>
+           </div>
+          <div class="mapa" id="mapa">
+               <h3><img src="imagenes/muffin.png" alt="">UBICACION</h3>
+               <div align="center" id="center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.241330539837!2d-68.79122658525593!3d-32.89178707644233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0ec04f62a7cd%3A0x676bec438ee86aa4!2sLa%20Pampa%203781%2C%20M5521IIK%20Belgrano%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1609808221616!5m2!1ses-419!2sar" ></iframe></div>
+           </div>
+             </div>-->
+
+             <!--
+             <form action="#" target="" method="get" name="formDatosPersonales">
+
+            	<label for="nombre">Nombre</label>
+            	<input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
+
+            	<label for="apellidos">Apellidos</label>
+            	<input type="text" name="apellidos" id="apellidos" placeholder="1r Apellido"/>
+
+            	<label for="email" />Email</label>
+            	<input type="email" name="email" id="email" placeholder="email" required />
+
+            	<label for="asunto">Asunto</label>
+            	<input type ="text" name="asunto" id="asunto" placeholder="titular de la consulta"/>
+
+            	<label for="mensaje">Mensaje</label>
+            	<textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
+
+            	<input type="submit" name="enviar" value="enviar datos"/>
+            </form>  agregado reciente,memte hasta aca-->
+
+
+
+           <div class="social">
+             <ul>
+              <li><a href="#" target="_blank" class="icon-facebook"><img src="imagenes/face.png" alt="faceboock"</a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=+5491161641689" target="_blank" class="icon-whatsapp"><img src="imagenes/what.png" alt="whatsapp"</a></li>
+          
+              <li><a href="#" class="icon-mail"><img src="imagenes/mail.png" alt="mail"</a></li>
+             </ul>
+          </div>
+
+   </main>
+       <footer >
+         <section class="footer">
+           <h4>NO TE OLVIDES DE BUSCARNO EN NUESTRAS REDES SOCIALES:</h4>
+         <div class="pie">
+           <img class="red1" src="imagenes/logogris.png"alt="logo">
+           </div>
+           <h5>Tienda "H & D" se reserva todos los derechos © </h5>
+          </section>
+      </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="js/carousel.js"></script>
+  </body>
+</html>
